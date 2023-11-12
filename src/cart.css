@@ -1,0 +1,65 @@
+/**
+*! style rules for shopping cart
+**/
+.shopping-cart {
+  display: grid;
+  grid-template-columns: repeat(1, 320px);
+  justify-content: center;
+  gap: 20px;
+  margin: 30px auto;
+}
+/**
+*! style rules for cart-item
+**/
+.cart-item {
+  border: 2px solid #212529;
+  display: flex;
+  border-radius: 5px;
+}
+.cart-item img{
+  border-radius: 2px 0 0 2px;
+}
+.bi-x-lg {
+  color: red;
+}
+.title-price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.title-price-x {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart-item-price {
+  background-color: #212529;
+  color: #fff;
+  padding: 3px 6px;
+  border-radius: 4px;
+}
+/**
+*! style rules for label and some buttons
+**/
+.text-center {
+  text-align: center;
+}
+.homeBtn, .checkout,.clear-cart {
+  background-color: #212529;
+  color: #fff;
+  padding: 6px;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+.clear-cart{
+  background-color: red;
+}
+.checkout{
+  background-color: green;
+}
+#label{
+  margin-top: 25px;
+}
